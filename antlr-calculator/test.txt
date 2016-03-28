@@ -1,0 +1,9 @@
+9 10 + ;
+9.42 sin 100 +;
+[ 1 2 3 4 ] sum;
+
+PI sin;
+"build up a list" [10 10 10 10 10 40] sum;
+"convert it to radians" [10 10 10 10 10 40] sum deg;
+"take the sine of the degree" [10 10 10 10 10 40] sum deg sin;
+
