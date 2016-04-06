@@ -1,1 +1,5 @@
 let x = 1 + 2
+while(0 < x) {
+  print x
+  let x = x - 1
+}
