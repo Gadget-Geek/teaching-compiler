@@ -12,7 +12,7 @@ classes:
 test:
 	java $(CP) Main < sample.src > sample.j
 	java -jar jasmin.jar sample.j
-	java MyApp
+	java -cp . MyApp
 
 clean:
 	rm -f Simple*.java *.tokens *.class *.j
